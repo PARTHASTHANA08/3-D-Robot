@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<HTML>
+    <HEAD>
+        <SCRIPT src = "https://aframe.io/releases/1.0.4/aframe.min.js"></SCRIPT>
+    </HEAD>
+    <BODY>
+        <A-SCENE>
+            <A-ENTITY>
+                <A-CAMERA position = "0 0 20"></A-CAMERA>
+            </A-ENTITY>
+            <A-SKY></A-SKY>
+            <A-ENTITY>
+                <! Head >
+               
+                <A-CYLINDER position = "0 5 0" radius = "2.5" height ="4" color = "red"></A-CYLINDER>
+                <A-CYLINDER position = "0 2.7 0" radius = "1.2" height ="2" color = "orange"></A-CYLINDER>
+                <A-SPHERE position =  "-1 5.3 3" radius = "0.5"></A-SPHERE>
+                <A-SPHERE position =  "-1 5 4" radius = "0.2" color = "black"></A-SPHERE>
+                <A-SPHERE position =  "1 5.3 3" radius = "0.5"></A-SPHERE>
+                <A-SPHERE position =  "1 5 4" radius = "0.2" color = "black"></A-SPHERE>
+                <A-TORUS position = "0 4.3 4" radius = "1.2" radius-tubular = "0.1" arc = "120" height = "2" rotation = "0 0 210" color = "black"></A-TORUS>
+            <A-ENTITY>
+                <! Body >
+                <A-CYLINDER position = "0 -1.8 0" radius = "3.9" height ="8" color = "red"></A-CYLINDER>
+            </A-ENTITY>
+            <A-ENTITY>
+                <! Hands >
+                <A-CYLINDER position = "4.7 -0.2 0" radius = "1" height ="4.5" rotation = "0 0 220"color = "orange"></A-CYLINDER>
+                <A-CYLINDER position = "-4.7 -0.2 0" radius = "1" height ="4.5" rotation = "0 0 -220" color = "orange"></A-CYLINDER>
+                <A-CYLINDER position = "5.9 -3.45 0" radius = "1" height ="4.5" rotation = "0 0 0"color = "orange"></A-CYLINDER>
+                <A-CYLINDER position = "-5.9 -3.45 0" radius = "1" height ="4.5" rotation = "0 0 0" color = "orange"></A-CYLINDER>
+                <A-TORUS position = "5.7 -6.7 0.5" radius = "1" radius-tubular = "0.1" arc = "270" rotation = "0 0 -45" color = "orange"></A-TORUS>
+                <A-TORUS position = "-5.8 -6.7 0.5" radius = "1" radius-tubular = "0.1" arc = "270" rotation = "0 0 -45" color = "orange"></A-TORUS>
+            </A-ENTITY>
+            <A-ENTITY>
+                <! Legs >
+                <A-CYLINDER position = "3 -8 0" radius = "1" height = "6" color = "orange"></A-CYLINDER>
+                <A-CYLINDER position = "-3 -8 0" radius = "1" height = "6" color = "orange"></A-CYLINDER>
+                <A-RING position = "-3 -11.5 0" radius-outer =  "2.3" radius-inner = "-1" color = "brown"></A-RING>
+                <A-RING position = "3 -11.5 0" radius-outer =  "2.3" radius-inner = "-1" color = "brown"></A-RING>
+            </A-ENTITY>
+        </A-SCENE>
+    </BODY>
+</HTML>
